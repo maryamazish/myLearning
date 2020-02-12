@@ -266,7 +266,7 @@ Solving the extreme and variable scalability issue architecturally is often a be
          ![enter image description here](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/assets/sapr_0501.png)
          [https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch05.html](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch05.html)
         
-  18. ***Distributed systems Category>*** [Object request broker](https://github.com/motaharinia/learning/blob/master/Architecture/resource/sessions/rad/Space-based%20architecture.docx)
+  18. ***Distributed systems Category>*** [Object request broker](https://github.com/motaharinia/learning/blob/master/Architecture/resource/sessions/azish/Object%20request%20broker.docx?raw=true)
         >In distributed computing, an object request broker (ORB) is a middleware which allows program calls to be made from one computer to another via a computer network, providing location transparency through remote procedure calls. ORBs promote interoperability of distributed object systems, enabling such systems to be built by piecing together objects from different vendors, while different parts communicate with each other via the ORB.
 ORBs handle the transformation of in-process data structures to and from the raw byte sequence, which is transmitted over the network. This is called marshalling or serialization. In addition to marshalling data, ORBs often expose many more features, such as distributed transactions, directory services or real-time scheduling. Some ORBs, such as CORBA-compliant systems, use an interface description language to describe the data that is to be transmitted on remote calls.[1][2]
 در محاسبات توزیع شده ، یک کارگزار درخواست شی (ORB) واسطه ای است که امکان برقراری تماس های برنامه از یک رایانه به دیگری از طریق شبکه رایانه ای را فراهم می کند و شفاف سازی مکان را از طریق تماس های رویه ای از راه دور فراهم می کند. ORB ها قابلیت همکاری سیستم های اشیاء توزیع شده را ارتقا می بخشند و این امکان را می دهند که با جمع کردن اشیاء از فروشندگان مختلف ، چنین سیستمهایی ساخته شوند ، در حالی که قسمت های مختلف از طریق ORB با یکدیگر ارتباط برقرار می کنند.
@@ -299,7 +299,7 @@ ORB ها تبدیل ساختارهای داده داده در فرآیند را 
 چکیده - محاسبات ابری تکامل یافته است تا مهمترین پارادایم فناوری اطلاعات در زمانهای اخیر ظهور کند. رایانش(محاسبات) ابری به سرعت در حال تغییر چشم انداز فناوری اطلاعات است. براساس استفاده شما ، مصرف کنندگان ابر می توانند به منابع ، برنامه ها و زیرساخت های ارائه شده توسط ارائه دهندگان ابری دسترسی پیدا کنند. چنین دسترسی ممکن است به شکلی از برنامه هایی باشد که قبلاً توسط ارائه دهندگان ابر برای استفاده کاربران ابر مستقر شده اند. این می تواند به شکل قابلیت توسعه و استقرار برنامه های کاربر با استفاده از خدمات ارائه دهنده ابری باشد. همچنین ، زیرساخت ذخیره سازی گسترده برای پایگاه داده و داده های تهیه شده توسط کاربر در دسترس است. ابر چندین معماری بی نظیر دارد و بسیاری دیگر هنوز تکامل می یابند. اصلی ترین آنها SaaS ، PaaS و IaaS هستند که می توانند در ابرهای خصوصی ، عمومی ، جامعه و ترکیبی مستقر شوند. در این مقاله به بررسی پیشرفت های موجود در معماری محاسبات ابری می پردازیم.
         [https://www.researchgate.net/publication/327125094_Cloud_Computing_Architecture_A_Critical_Analysis/link/5cc6ed0f299bf120978802bc/download](https://www.researchgate.net/publication/327125094_Cloud_Computing_Architecture_A_Critical_Analysis/link/5cc6ed0f299bf120978802bc/download)
          
-  23. [Object-Oriented](https://github.com/motaharinia/learning/blob/master/Architecture/resource/sessions/motaharinia/Cloud%20Computing%20Architecture.docx?raw=true)
+  23. [Object-Oriented](https://github.com/motaharinia/learning/blob/master/Architecture/resource/sessions/rad/Object%20Oriented%20Architecture.docx?raw=true)
         >Object Oriented Architecture is an important concept for developing the software. It is a design paradigm based on the division of responsibilities for an application or system into individual reusable and self-sufficient objects. The popular approach of object-oriented design is to view a software system as a collection of entities known as objects. Object oriented is based on modeling real-world objects.
 معماری شی گرا مفهوم مهمی برای توسعه نرم افزار است. این یک الگوی طراحی مبتنی بر تقسیم مسئولیت های یک برنامه یا سیستم به اشیاء قابل استفاده مجدد و خودکفا است. رویکرد رایج در طراحی شی گرا ، مشاهده یک سیستم نرم افزاری به عنوان مجموعه ای از اشخاص شناخته شده به عنوان اشیاء است. شی گرا مبتنی بر مدل سازی اشیاء در دنیای واقعی است.
 
@@ -309,39 +309,57 @@ ORB ها تبدیل ساختارهای داده داده در فرآیند را 
 
   24. Resource-oriented Architecture (ROA)
 
-  25. Message Bus
+  25. [Message Bus](https://github.com/motaharinia/learning/blob/master/Architecture/resource/sessions/motaharinia/Message%20Broker%20-%20Message%20Bus.docx?raw=true)
+        >Firstly, let’s be clear, the terms Message Broker and Message Bus are used in architectural patterns for messaging systems, also referred to as messaging topologies. Whilst a Message Bus is one such topology, a Message Broker is only one component in an alternative topology known as Hub and Spoke. These topologies describe different ways for integrating apps using messaging.
+در مرحله اول ، واضح است ، اصطلاحات کارگذار پیام و اتوبوس پیام در الگوهای معماری برای سیستم های پیام رسانی استفاده می شود ، همچنین به عنوان توپولوژی پیام رسانی خوانده می شوند. در حالی که یک اتوبوس پیام یکی از این توپولوژی هاست ، یک کارگزار پیام تنها یک جزء در یک توپولوژی جایگزین شناخته شده به عنوان Hub and Spoke است. این توپولوژی ها روش های مختلفی را برای ادغام برنامه ها با استفاده از پیام رسانی توصیف می کنند.
+![enter image description here](https://neiljbrown.files.wordpress.com/2017/05/message-bus-toplogy.png)
+         ![enter image description here](https://neiljbrown.files.wordpress.com/2017/05/message-broker-mediating-collaboration.png)
+         [https://neiljbrown.com/2017/05/13/message-broker-or-bus-whats-the-difference/](https://neiljbrown.com/2017/05/13/message-broker-or-bus-whats-the-difference/)
+         [https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff647328(v=pandp.10)?redirectedfrom=MSDN](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff647328(v=pandp.10)?redirectedfrom=MSDN)
+         [https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff648849(v=pandp.10)?redirectedfrom=MSDN](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff648849(v=pandp.10)?redirectedfrom=MSDN)
+        
 
-+ **Software Architectural Patterns:**:
+
++ **Software Architectural Patterns:**
   1. Three-tier
 
   2. Multilayered architecture
 
-  3. Model-view-controller
-
+  3. [Model-view-controller](https://github.com/motaharinia/learning/blob/master/Architecture/resource/sessions/rad/Model-view-controller.docx?raw=true)
+        >The Model-View-Controller (MVC) framework is an architectural pattern that separates an application into three main logical components Model, View, and Controller. Hence the abbreviation MVC. Each architecture component is built to handle specific development aspect of an application. MVC separates the business logic and presentation layer from each other. It was traditionally used for desktop graphical user interfaces (GUIs). Nowadays, MVC architecture has become popular for designing web applications as well as mobile apps. 
+چارچوب Model-View-Controller (MVC) یک الگوی معماری است که یک برنامه را به سه مؤلفه اصلی منطقی Model ، View و Controller جدا می کند. از این رو مخفف MVC. هر مؤلفه معماری ساخته شده است تا جنبه توسعه خاص یک برنامه را داشته باشد. MVC منطق تجارت و لایه ارائه را از یکدیگر جدا می کند. به طور سنتی برای رابط های کاربری گرافیکی دسک تاپ (GUI) استفاده می شد. امروزه معماری MVC برای طراحی برنامه های وب و همچنین اپلیکیشن های موبایل محبوبیت پیدا کرده است.
+        [https://www.guru99.com/mvc-tutorial.html](https://www.guru99.com/mvc-tutorial.html)
+         
   4. Domain Driven Design
 
   5. Microkernel
 
   6. Blackboard pattern
 
-  7. Sensor-controller-actuator
-
+  7. [Sensor-controller-actuator](https://github.com/motaharinia/learning/blob/master/Architecture/resource/sessions/motaharinia/Sensor-controller-actuator.docx?raw=true)
+        >A system architecture is proposed for integrating sensors, controllers, actuators and instrumentation within a common framework. The goal is to provide a flexible and scalable system. Extending the system, by adding additional components such as sensors or actuators, does not increase the overheads and is achieved seamlessly with minimal modification of the core controller program. The architecture is generic, though it has been proposed to implement a prototype system on a small form factor PC to remote control an autonomous vehicle. The architecture will find application in many other spheres such as home, office and factory automation, process and environmental monitoring, surveillance and robotics.
+معماری سیستم برای ادغام سنسورها ، کنترلرها ، محرکها و ابزار دقیق در یک چارچوب مشترک پیشنهاد شده است. هدف این است که یک سیستم انعطاف پذیر و مقیاس پذیر ارائه شود. گسترش سیستم ، با اضافه کردن مؤلفه های اضافی مانند سنسورها یا محرک ها ، باعث افزایش سربار نمی شود و با کمترین تغییر در برنامه کنترل هسته یکپارچه حاصل می شود. معماری عمومی است ، اگرچه پیشنهاد شده است برای پیاده سازی یک سیستم نمونه اولیه بر روی رایانه شخصی با فرم کوچک برای کنترل از راه دور یک وسیله نقلیه خودمختار پیشنهاد شود. این معماری در بسیاری از زمینه های دیگر مانند اتوماسیون خانگی ، اداری و کارخانه ای ، نظارت بر فرآیند و محیط زیست ، نظارت و رباتیک کاربردهایی پیدا خواهد کرد.
+        [https://pdfs.semanticscholar.org/8613/4435062a6c00509077c4953d328b631719ee.pdf](https://pdfs.semanticscholar.org/8613/4435062a6c00509077c4953d328b631719ee.pdf)
+         
   8. Presentation–abstraction–control
 
   9. Model-View-ViewModel
  
-  10. CQRS
-        >CQRS is an acronym for Command and Query Responsibility Segregation. The central concept of this pattern is that an application has read operations and write operations that must be totally separated. This also means that the model used for write operations (commands) will differ from the read models (queries). Furthermore, the data will be stored in different locations. In a relational database, this means there will be tables for the command model and tables for the read model. Some implementations even store the different models in totally different databases, e.g. SQL Server for the command model and MongoDB for the read model.This pattern is often combined with event sourcing.
-        ![enter image description here](https://blog.ndepend.com/wp-content/uploads/layered-3.png)
+  10. [CQRS](https://github.com/motaharinia/learning/blob/master/Architecture/resource/sessions/motaharinia/CQRS.docx?raw=true)
+        >CQRS is an acronym for Command and Query Responsibility Segregation. The central concept of this pattern is that an application has read operations and write operations that must be totally separated. This also means that the model used for write operations (commands) will differ from the read models (queries). Furthermore, the data will be stored in different locations. In a relational database, this means there will be tables for the command model and tables for the read model. Some implementations even store the different models in totally different databases, e.g. SQL Server for the command model and MongoDB for the read model.
+CQRS مخففی برای تفکیک فرماندهی و مسئولیت پرس و جو است. مفهوم اصلی این الگوی این است که یک برنامه دارای عملیات خواندن و نوشتن است که باید کاملاً از هم جدا شوند. این همچنین بدان معنی است که مدل مورد استفاده برای عملیات نوشتن (دستورات) با مدلهای خوانده شده (نمایش داده شد) متفاوت خواهد بود. علاوه بر این ، داده ها در مکان های مختلف ذخیره می شوند. در یک پایگاه داده رابطه ای ، این بدان معناست که جدول هایی برای مدل فرمان و جداول برای مدل خواندن وجود خواهد داشت. برخی از پیاده سازیها حتی مدلهای مختلف را در پایگاههای داده کاملاً متفاوت ذخیره می کنند ، به عنوان مثال. SQL Server برای مدل فرمان و MongoDB برای مدل خواندن.       ![enter image description here](https://blog.ndepend.com/wp-content/uploads/layered-3.png)
         ![enter image description here](https://blog.ndepend.com/wp-content/uploads/Layered-4.png)
 [https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k](https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k)
 
-  11. Event Sourcing
-        >CQRS often goes hand in hand with event sourcing. This is a pattern where you don’t store the current state of your model in the database, but rather the events that happened to the model. So when the name of a customer changes, you won’t store the value in a “Name” column. You will store a “NameChanged” event with the new value (and possibly the old one too).A real-life analogy of event sourcing is accounting. When you add an expense, you don’t change the value of the total. In accounting, a new line is added with the operation to be performed. If an error was made, you simply add a new line.        ![enter image description here](https://blog.ndepend.com/wp-content/uploads/layered-5.png)[https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k](https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k)
+  11. [Event Sourcing](https://github.com/motaharinia/learning/blob/master/Architecture/resource/sessions/motaharinia/Event%20Sourcing.docx?raw=true)
+        >As I mentioned above, CQRS often goes hand in hand with event sourcing. This is a pattern where you don’t store the current state of your model in the database, but rather the events that happened to the model. So when the name of a customer changes, you won’t store the value in a “Name” column. You will store a “NameChanged” event with the new value (and possibly the old one too).
+همانطور که میدانید ، CQRS اغلب با کمک event sourcing  اتفاق می افتد. این الگویی است که شما وضعیت فعلی مدل خود را در دیتابیس ذخیره نمی کنید ، بلکه اتفاقاتی است که برای مدل افتاده است. بنابراین وقتی نام مشتری تغییر می کند ، شما ارزش آن را در ستون "نام" ذخیره نمی کنید. شما یک رویداد ""NameChanged را با مقدار جدید (و احتمالاً قدیمی) نیز ذخیره خواهید کرد.
+       ![enter image description here](https://blog.ndepend.com/wp-content/uploads/layered-5.png)[https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k](https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k)
         
-  12. Microservice:
-        >When you write your application as a set of microservices, you’re actually writing multiple applications that will work together. Each microservice has its own distinct responsibility and teams can develop them independently of other microservices. The only dependency between them is the communication. As microservices communicate with each other, you will have to make sure messages sent between them remain backwards-compatible. This requires some coordination, especially when different teams are responsible for different microservices.
-        ![enter image description here](https://blog.ndepend.com/wp-content/uploads/layered-6.png)
+  12. [Microservice](https://github.com/motaharinia/learning/blob/master/Architecture/resource/sessions/motaharinia/Microservices.docx?raw=true)
+        >When you write your application as a set of microservices, you’re actually writing multiple applications that will work together. Each microservice has its own distinct responsibility and teams can develop them independently of other microservices. The only dependency between them is the communication. As microservices communicate with each other, you will have to make sure messages sent between them remain backwards-compatible (Backward compatibility is a property of a system, product, or technology that allows for interoperability with an older legacy system, or with input designed for such a system, especially in telecommunications and computing.). This requires some coordination, especially when different teams are responsible for different microservices. A diagram can explain.
+وقتی برنامه خود را به عنوان مجموعه میکروسرویسها می نویسید ، در واقع چندین برنامه می نویسید که با هم کار خواهند کرد. هر میکروسرویس وظیفه متمایز خود را دارد و تیم ها می توانند آنها را بطور مستقل از سایر میکروسرویس ها توسعه دهند. تنها وابستگی بین آنها ارتباط است. از آنجا که میکرو سرویس ها با یکدیگر ارتباط برقرار می کنند ، شما باید مطمئن شوید که پیام های ارسالی بین آنها backwards-compatible (backwards-compatible خاصیت یک سیستم ، محصول یا فناوری است که امکان همکاری با سیستم قدیمی تریا ورودی را برای چنین سیستمی بخصوص در ارتباطات از راه دور و محاسبات فراهم می کند.) باقی می مانند. این امر به برخی از هماهنگی ها نیاز دارد ، به ویژه هنگامی که تیم های مختلف مسئولیت میکروسرویس های مختلف را بر عهده دارند. یک نمودار می تواند توضیح دهد.
+![enter image description here](https://blog.ndepend.com/wp-content/uploads/layered-6.png)
 [https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k](https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k)
 
 ## [^](#welcome) Design
